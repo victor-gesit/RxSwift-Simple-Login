@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08A2D846153DDC4888EA4E39 /* Pods_RxSwift_Haville.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74ABF09FFE9A5E020ABA4364 /* Pods_RxSwift_Haville.framework */; };
+		0D3EC54020C73BC300F2F8BF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3EC53F20C73BC300F2F8BF /* LoginViewModel.swift */; };
 		0DE3130B20C6E207006AB798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3130A20C6E207006AB798 /* AppDelegate.swift */; };
 		0DE3130D20C6E207006AB798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3130C20C6E207006AB798 /* ViewController.swift */; };
 		0DE3131020C6E207006AB798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE3130E20C6E207006AB798 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01EAB8894C48B0B6A8E0D833 /* Pods-RxSwift Haville.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift Haville.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift Haville/Pods-RxSwift Haville.release.xcconfig"; sourceTree = "<group>"; };
+		0D3EC53F20C73BC300F2F8BF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		0DE3130720C6E207006AB798 /* RxSwift Haville.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift Haville.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE3130A20C6E207006AB798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DE3130C20C6E207006AB798 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		0DE3131120C6E20A006AB798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DE3131420C6E20A006AB798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DE3131620C6E20A006AB798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35910DE92D319701C3135B62 /* Pods-RxSwift Haville.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift Haville.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift Haville/Pods-RxSwift Haville.debug.xcconfig"; sourceTree = "<group>"; };
+		74ABF09FFE9A5E020ABA4364 /* Pods_RxSwift_Haville.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_Haville.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A2D846153DDC4888EA4E39 /* Pods_RxSwift_Haville.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BE16E914E7116DE2AFA8EB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74ABF09FFE9A5E020ABA4364 /* Pods_RxSwift_Haville.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0DE312FE20C6E207006AB798 = {
 			isa = PBXGroup;
 			children = (
 				0DE3130920C6E207006AB798 /* RxSwift Haville */,
 				0DE3130820C6E207006AB798 /* Products */,
+				867E1519C5D285B321E98BB9 /* Pods */,
+				0BE16E914E7116DE2AFA8EB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				0DE3130A20C6E207006AB798 /* AppDelegate.swift */,
+				0D3EC53F20C73BC300F2F8BF /* LoginViewModel.swift */,
 				0DE3130C20C6E207006AB798 /* ViewController.swift */,
 				0DE3130E20C6E207006AB798 /* Main.storyboard */,
 				0DE3131120C6E20A006AB798 /* Assets.xcassets */,
@@ -64,6 +82,15 @@
 			path = "RxSwift Haville";
 			sourceTree = "<group>";
 		};
+		867E1519C5D285B321E98BB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35910DE92D319701C3135B62 /* Pods-RxSwift Haville.debug.xcconfig */,
+				01EAB8894C48B0B6A8E0D833 /* Pods-RxSwift Haville.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DE3131920C6E20A006AB798 /* Build configuration list for PBXNativeTarget "RxSwift Haville" */;
 			buildPhases = (
+				7AF06EA49A028685115653BC /* [CP] Check Pods Manifest.lock */,
 				0DE3130320C6E207006AB798 /* Sources */,
 				0DE3130420C6E207006AB798 /* Frameworks */,
 				0DE3130520C6E207006AB798 /* Resources */,
+				5E04D2EB853CD3E5EADA0D9F /* [CP] Embed Pods Frameworks */,
+				1337FDA6AC638EFCF5EB8C73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +160,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1337FDA6AC638EFCF5EB8C73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift Haville/Pods-RxSwift Haville-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E04D2EB853CD3E5EADA0D9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift Haville/Pods-RxSwift Haville-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift Haville/Pods-RxSwift Haville-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF06EA49A028685115653BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwift Haville-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0DE3130320C6E207006AB798 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +223,7 @@
 			files = (
 				0DE3130D20C6E207006AB798 /* ViewController.swift in Sources */,
 				0DE3130B20C6E207006AB798 /* AppDelegate.swift in Sources */,
+				0D3EC54020C73BC300F2F8BF /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +365,7 @@
 		};
 		0DE3131A20C6E20A006AB798 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35910DE92D319701C3135B62 /* Pods-RxSwift Haville.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +384,7 @@
 		};
 		0DE3131B20C6E20A006AB798 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EAB8894C48B0B6A8E0D833 /* Pods-RxSwift Haville.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
